@@ -5,64 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Restaurante</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header>
-        <div>
-            <nav>
-                <img src="./assets/Screenshot 2023-10-19 at 6.26.17 PM.png" alt="nav-hamburger">
+        <div class="nav">
+            <nav class="nav_bar">
+                <a href="#"><img src="./assets/Screenshot 2023-10-19 at 6.26.17 PM.png" alt="nav-hamburger"></a>
             </nav>
         </div>
     </header>
     <main>
-        <section>
-            <div>
-                <img src="./assets/word-image-98-1.png" alt="Logo Bar">
+        <section class="logo">
+            <div class="logo_img">
+                <img src="./assets/word-image-98-1.png" alt="Logo Bar" class="img">
             </div>
-            <div>
-                <h1>Bocados</h1>
+        </section>
+            <section class="menu">
+                <div class="menu_appetizers">
+                    <h1>Bocados</h1>
 
-                <p>Nuestro pincho de tortilla al estilo #casadecomidasdelafuente</p>
-                <p>4,10</p>
-                
-                <p>Picada de ternera a la <strong>brasa</strong>, hojaldre, tomates semisecos, cebolleta y salsa de tatemados</p>
-                <p>4,50</p>
+                    <p class="menu_dish">Nuestro pincho de tortilla al estilo #casadecomidasdelafuente</p>
+                    <p class="menu_price">&#8364 4,10</p>
+                    
+                    <p class="menu_dish">Picada de ternera a la <strong>brasa</strong>, hojaldre, tomates semisecos, cebolleta y salsa de tatemados</p>
+                    <p class="menu_price">&#8364 4,50</p>
 
-                <p><strong>Anchoa de Casa Santoña</strong> , cogollo de lechuga planchado, gel de yema, aceitunas de Campo Real y cebollas crispy.</p>
-                <p>4,80</p>
+                    <p class="menu_dish"><strong>Anchoa de Casa Santoña</strong> , cogollo de lechuga planchado, gel de yema, aceitunas de Campo Real y cebollas crispy.</p>
+                    <p class="menu_price">&#8364 4,80</p>
+                </div>
+                <div class="menu_plates">
+                    <h1>Para compartir</h1>
+                    
+                    <p class="menu_dish">Tacos de oreja a la plancha con salsa brava</p>
+                    <p class="menu_price">&#8364 11</p>
 
-                <h1>Para compartir</h1>
-                
-                <p>Tacos de oreja a la plancha con salsa brava</p>
-                <p>11</p>
+                    <p class="menu_dish">Bocadillo de calamares y ali oli de citricos, pongamos que hablo de <strong>Madrid</strong></p>
+                    <p class="menu_price">&#8364 12</p>
 
-                <p>Bocadillo de calamares y ali oli de citricos, pongamos que hablo de <strong>Madrid</strong></p>
-                <p>12</p>
+                    <p class="menu_dish">Vieiras y coles de bruselas a la plancha, hummus de garbanzos al pimentón y velouté de cocido.</p>
+                    <p class="menu_price">&#8364 12</p>
 
-                <p>Vieiras y coles de bruselas a la plancha, hummus de garbanzos al pimentón y velouté de cocido.</p>
-                <p>12</p>
+                    <p class="menu_dish">Atun rojo a la madrile;a, salsa de sus espinas, patatas confitadas y costra de panko y limón.</p>
+                    <p class="menu_price">&#8364 22</p>
 
-                <p>Atun rojo a la madrile;a, salsa de sus espinas, patatas confitadas y costra de panko y limón.</p>
-                <p>22</p>
+                    <p class="menu_dish">Alboronía Madrileña: jarrete de ternera blanca  guisada con mahonesa de piñones, hierbabuena, salsa de boletus y champiñones.</p>
+                    <p class="menu_price">&#8364 23</p>
 
-                <p>Alboronía Madrileña: jarrete de ternera blanca  guisada con mahonesa de piñones, hierbabuena, salsa de boletus y champiñones.</p>
-                <p>23</p>
+                    <p class="menu_dish">Lomo de ciervo con matices de pera agridulces al brandy y la vainilla, almendras fritas y brotes.</p>
+                    <p class="menu_price">&#8364 26</p>
 
-                <p>Lomo de ciervo con matices de pera agridulces al brandy y la vainilla, almendras fritas y brotes.</p>
-                <p>26</p>
-
-                <p>Servicio de pan y aceite</p>
-                <p>1,80</p>
-
-                <h1>Postres</h1>
-
-                <p>Letuario: crema y helado de naranja con su ralladura al aguardiente y crumble de miel.</p>
-                <p>7</p>
-
-                <p>Esponjoso de chocolate, grue de cacao y helado de caramelo a la sal.</p>
-                <p>7</p>
+                    <p class="menu_dish">Servicio de pan y aceite</p>
+                    <p class="menu_price">&#8364 1,80</p>
+                </div>
+                <div class="menu_dessert">
+                    <h1>Postres</h1>
+                    
+                    <p class="menu_dish">Letuario: crema y helado de naranja con su ralladura al aguardiente y crumble de miel.</p>
+                    <p class="menu_price">&#8364 7</p>
+                    
+                    <p class="menu_dish">Esponjoso de chocolate, grue de cacao y helado de caramelo a la sal.</p>
+                    <p class="menu_price">&#8364 7</p>
+                </div>
             </div>
         </section>
     </main>
+    <footer>
+        <section class="footer">
+            <ul class="footer_list">
+                <a href="#"><li class="footer_item">&copy Mi Restaurante</li></a>
+                <a href="#"><li class="footer_item">Aviso Legal</li></a>
+                <a href="#"><li class="footer_item">Politica de Privacidad</li></a>
+                <a href="#"><li class="footer_item">Pólitica de Cookies</li></a>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>
